@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		9E0A72741F600328006CBE07 /* TestScrollView.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E0A72731F600328006CBE07 /* TestScrollView.m */; };
 		9E7FFBD11F5AEDAC00612656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FFBD01F5AEDAC00612656 /* main.m */; };
 		9E7FFBD41F5AEDAC00612656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FFBD31F5AEDAC00612656 /* AppDelegate.m */; };
 		9E7FFBD71F5AEDAC00612656 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FFBD61F5AEDAC00612656 /* ViewController.m */; };
@@ -17,8 +16,6 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		9E0A72721F600328006CBE07 /* TestScrollView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestScrollView.h; sourceTree = "<group>"; };
-		9E0A72731F600328006CBE07 /* TestScrollView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestScrollView.m; sourceTree = "<group>"; };
 		9E7FFBCC1F5AEDAC00612656 /* DribblePullDownAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribblePullDownAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7FFBD01F5AEDAC00612656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E7FFBD21F5AEDAC00612656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -70,8 +67,6 @@
 				9E7FFBDD1F5AEDAC00612656 /* LaunchScreen.storyboard */,
 				9E7FFBE01F5AEDAC00612656 /* Info.plist */,
 				9E7FFBCF1F5AEDAC00612656 /* Supporting Files */,
-				9E0A72721F600328006CBE07 /* TestScrollView.h */,
-				9E0A72731F600328006CBE07 /* TestScrollView.m */,
 			);
 			path = DribblePullDownAnimate;
 			sourceTree = "<group>";
@@ -115,7 +110,6 @@
 				TargetAttributes = {
 					9E7FFBCB1F5AEDAC00612656 = {
 						CreatedOnToolsVersion = 8.3.3;
-						DevelopmentTeam = 3D9K6K9886;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -157,7 +151,6 @@
 			buildActionMask = 2147483647;
 			files = (
 				9E7FFBD71F5AEDAC00612656 /* ViewController.m in Sources */,
-				9E0A72741F600328006CBE07 /* TestScrollView.m in Sources */,
 				9E7FFBD41F5AEDAC00612656 /* AppDelegate.m in Sources */,
 				9E7FFBD11F5AEDAC00612656 /* main.m in Sources */,
 			);
@@ -279,7 +272,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3D9K6K9886;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DribblePullDownAnimate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmu.DribblePullDownAnimate;
@@ -291,7 +284,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				DEVELOPMENT_TEAM = 3D9K6K9886;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = DribblePullDownAnimate/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.bmu.DribblePullDownAnimate;
