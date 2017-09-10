@@ -7,8 +7,10 @@
 //
 
 #import "ViewController.h"
+#import "UIImage+Extension.h"
 
 #define RGB(r,g,b,a) [UIColor colorWithRed: r/255.f green: g/255.f blue: b/255.f alpha: a]
+#define BGColor RGB(51, 50, 81, 1.0)
 
 @interface ViewController ()<UIScrollViewDelegate>
 
@@ -16,17 +18,21 @@
 @property (nonatomic, strong) UIView *animatedView;
 @property (nonatomic, strong) CAShapeLayer *shapeLayer;
 
+@property (nonatomic, assign) BOOL dragEnd;
+
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    self.view.backgroundColor = RGB(51, 50, 81, 1.0);
+    self.view.backgroundColor = BGColor;
     self.navigationController.navigationBar.barStyle = UIBarStyleBlack;
     self.navigationItem.title = @"TIMELINE";
     [self.navigationController.navigationBar setTitleTextAttributes: @{NSFontAttributeName: [UIFont systemFontOfSize: 16], NSForegroundColorAttributeName: [UIColor whiteColor]}];
-    [self.navigationController.navigationBar setBarTintColor: RGB(51, 50, 81, 1.0)];
+    self.navigationController.navigationBar.translucent = NO;
+    [self.navigationController.navigationBar setBackgroundImage: [UIImage imageWithColor: BGColor size: CGSizeMake(1, 1)] forBarMetrics: UIBarMetricsDefault];
+    [self.navigationController.navigationBar setShadowImage: [UIImage new]];
     
     [self.view addSubview: self.scrollView];
     self.animatedView = [[UIView alloc] initWithFrame: CGRectMake(0, 0, CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - 64)];
@@ -96,7 +102,7 @@
 - (UIScrollView *)scrollView {
     if (!_scrollView) {
         _scrollView = [[UIScrollView alloc] initWithFrame: self.view.bounds];
-        _scrollView.backgroundColor = RGB(121, 124, 161, 1.0);
+        _scrollView.backgroundColor = BGColor;
         _scrollView.delegate = self;
         _scrollView.scrollEnabled = YES;
         _scrollView.contentSize = CGSizeMake(CGRectGetWidth(self.view.frame), CGRectGetHeight(self.view.frame) - 64);

@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9E72133E1F6560F6003CCA8F /* UIImage+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E72133D1F6560F6003CCA8F /* UIImage+Extension.m */; };
 		9E7FFBD11F5AEDAC00612656 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FFBD01F5AEDAC00612656 /* main.m */; };
 		9E7FFBD41F5AEDAC00612656 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FFBD31F5AEDAC00612656 /* AppDelegate.m */; };
 		9E7FFBD71F5AEDAC00612656 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9E7FFBD61F5AEDAC00612656 /* ViewController.m */; };
@@ -16,6 +17,8 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		9E72133C1F6560F6003CCA8F /* UIImage+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extension.h"; sourceTree = "<group>"; };
+		9E72133D1F6560F6003CCA8F /* UIImage+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extension.m"; sourceTree = "<group>"; };
 		9E7FFBCC1F5AEDAC00612656 /* DribblePullDownAnimate.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DribblePullDownAnimate.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9E7FFBD01F5AEDAC00612656 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		9E7FFBD21F5AEDAC00612656 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -62,6 +65,8 @@
 				9E7FFBD31F5AEDAC00612656 /* AppDelegate.m */,
 				9E7FFBD51F5AEDAC00612656 /* ViewController.h */,
 				9E7FFBD61F5AEDAC00612656 /* ViewController.m */,
+				9E72133C1F6560F6003CCA8F /* UIImage+Extension.h */,
+				9E72133D1F6560F6003CCA8F /* UIImage+Extension.m */,
 				9E7FFBD81F5AEDAC00612656 /* Main.storyboard */,
 				9E7FFBDB1F5AEDAC00612656 /* Assets.xcassets */,
 				9E7FFBDD1F5AEDAC00612656 /* LaunchScreen.storyboard */,
@@ -153,6 +158,7 @@
 				9E7FFBD71F5AEDAC00612656 /* ViewController.m in Sources */,
 				9E7FFBD41F5AEDAC00612656 /* AppDelegate.m in Sources */,
 				9E7FFBD11F5AEDAC00612656 /* main.m in Sources */,
+				9E72133E1F6560F6003CCA8F /* UIImage+Extension.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
