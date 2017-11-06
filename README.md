@@ -2,11 +2,14 @@
 >实现的Dribble一个下拉刷新的效果
 
 ###Dribble大神作品
+
 ![PullDownRefresh](./pull-down.gif)
 
 ###项目的完成度：
 ####（1）第一版完成了下拉的曲线，效果如下：
+
 ![PullDownAnimation1](./PullDownAnimation1.gif)
+
 #### 实现思路：
 1.因为有三个个曲线，左右两个曲线分别需要一个控制点，中间的曲线需要两个控制点，所以，需要四个控制点。
 
