@@ -1,12 +1,12 @@
 # DribblePullDownAnimate
 >实现的Dribble一个下拉刷新的效果
 
-###Dribble大神作品
+### Dribble大神作品
 
 ![PullDownRefresh](./pull-down.gif)
 
-###项目的完成度：
-####（1）第一版完成了下拉的曲线，效果如下：
+### 项目的完成度：
+#### （1）第一版完成了下拉的曲线，效果如下：
 
 ![PullDownAnimation1](./PullDownAnimation1.gif)
 
